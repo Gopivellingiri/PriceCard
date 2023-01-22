@@ -54,5 +54,8 @@ button {
 button:hover {
   transition: all 500ms;
   background-color: #C9D6Ef;
-  
+}
+
+.grid-items:hover {
+  box-shadow:3px 3px 5px #a8adb3;
 }
