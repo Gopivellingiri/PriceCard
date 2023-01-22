@@ -6,3 +6,33 @@
   margin-top: 30px;
   gap: 20px;
 }
+
+@media only screen and (min-width:360px) and (max-width:640px) {
+  .container{
+    display: block;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:962px) {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+}
+
+@media only screen and (min-width:750px) and (max-width:1024px) {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+
+}
+
+@media only screen and (min-width:975px) and (max-width:1920px) {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: flex-start;
+  }
+
+}
